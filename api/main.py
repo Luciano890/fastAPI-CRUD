@@ -17,9 +17,14 @@ app = FastAPI(
     openapi_tags=[{
         "name":"users",
         "description":"Users routes",
-    },{
+    },
+    {
         "name":"chat",
         "description":"Chat routes",
+    },
+    {
+        "name":"data-chat",
+        "description":"Data chat routes",
     }]
 )
 
